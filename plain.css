@@ -1,0 +1,124 @@
+body {  
+    margin-left: 3%;
+    margin-top: 115px;
+}
+
+.headone {
+    display: inline-block;
+    width: 30%;
+    vertical-align: bottom;
+    height: 150px;
+}
+
+.headtwo {
+    display: inline-block;
+    width: 65%;
+    text-align: right;
+    height: 150px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+hr {
+    width: 100%;   
+}
+
+#stats {
+    font-weight: bolder;
+}
+
+#sidebar {
+    order: 1;  
+    display:block;
+    width: 165px;
+}
+
+#nodes {
+    order: 2;   
+    display:block;
+    min-width: 625px;
+    max-width: 625px;
+}
+
+#imgbar {   
+    display: block;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    width: 500px;
+    
+}
+
+li {
+    display: block;
+    list-style-type: none;
+}
+
+header {
+    position: fixed;
+    padding-top: 10px;
+    top: 0px;
+    margin: 0px;
+    background-color: white;
+    width: 40%;
+    min-width: 625px;
+    height: 100px;
+}
+
+.logo {
+    font-family: Helvetica;
+    letter-spacing: 1px;
+    font-weight:normal;
+    height:auto;
+    width: 700px;
+    display: inline-block;
+    font-size: 2.5em;
+}
+
+.powered {
+    background-image:url(images/poweredby.png);
+    background-repeat:no-repeat;
+    height: 30px;
+    width: 150px;
+    display: block;
+}
+
+.wrong {
+    color: red;   
+}
+
+.correct {
+    color: ;
+}
+
+.nyttitle {
+    font-family: georgia;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.nytabstract {
+    font-family: georgia;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.twitter {
+    font-family: arial;   
+}
+
+.reddit {
+    font-family: verdana;   
+}
+
+.none {
+    display: none;   
+}
